@@ -8,7 +8,6 @@ import UserSignUp from "./components/User/UserSignUp";
 import AdminSignUp from "./components/Admin/AdminSignUp";
 import AdminNavbar from "./components/Admin/AdminNavbar";
 import UserNavbar from "./components/User/UserNavbar";
-//import AdminDashboard from "./components/Admin/AdminDashboard";
 import AdminProduct from "./components/Admin/AdminProduct";
 import Customer from "./components/Customer/Customer";
 import Confirmation from "./components/Confirmation/Confirmation"
