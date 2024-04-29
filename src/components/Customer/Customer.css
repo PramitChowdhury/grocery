@@ -1,0 +1,60 @@
+/* Customer.css */
+button {
+    margin-left: 2%;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-height: 500px;
+    /* Set a maximum height to enable scrolling */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+}
+
+.product-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 0 1 calc(33.33% - 20px);
+    /* Adjust card width based on container size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-product {
+    flex-basis: 100%;
+    /* Full width for the "Add Product" card */
+}
+
+.product-card label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.product-card input {
+    width: calc(100% - 12px);
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.product-card button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #0056b3;
+}
+
+.product-card button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

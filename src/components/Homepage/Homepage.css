@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Disable scrolling */
+}
+
+.pic-ctn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Move the image behind other content */
+}
+
+.pic-ctn>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Cover the entire container */
+}
+
+.welcome-line {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Whitish transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.welcome-line h1 {
+    margin: 0;
+    color: #333;
+    /* Text color */
+}

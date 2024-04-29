@@ -1,0 +1,30 @@
+.container-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../Media/Images/image-08.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: scroll;
+
+}
+
+.welcome-line {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Whitish transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .form-container {
+        width: 100%;
+    }
+}
